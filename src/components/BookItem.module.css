@@ -1,0 +1,78 @@
+.post {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #bba8f0;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  animation: animate-in 1s ease-out forwards;
+}
+
+.author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #543280;
+  margin: 0;
+  text-transform: uppercase;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.text {
+  white-space: pre-wrap;
+  font-size: 1.25rem;
+  font-family: inherit;
+  margin: 0.25rem 0 0 0;
+  color: #392652;
+  font-style: italic;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  background-color: #c9c6d1;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  background-color: #c9c6d1;
+}
+
+button {
+  margin-top: 7%;
+  margin-right: 2%;
+  padding: 0.5rem 1rem;
+  background-color: #543280;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@keyframes animate-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+  }
+  
+}
+

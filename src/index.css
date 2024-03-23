@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  min-height: 100vh;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background: -webkit-linear-gradient(to bottom, #8e2de2, #4a00e0); 
+  background: linear-gradient(to bottom,  #8e2de2, #4a00e0);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  color: #e6ddf9;
+}
+
+.btn-edit {
+  color: rgb(8, 70, 0);
+  margin-right: 4px;
+  margin-top: 4px;
+  font-size: 1.4rem;
+}
+
+.btn-edit:hover {
+  color: rgb(17, 133, 2);
+  margin-right: 4px;
+  margin-top: 4px;
+  font-size: 1.4rem;
+}
+
+.btn-del {
+  color: rgb(153, 0, 8);
+  margin-top: 4px;
+  font-size: 1.4rem;
+}
+.btn-del:hover {
+  color: rgb(214, 8, 19);
+  margin-top: 4px;
+  font-size: 1.4rem;
+}
