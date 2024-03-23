@@ -8,8 +8,8 @@ A live demo of the Library Management App is available [here](https://shashwatpa
 
 ## Features
 
-- **Add Books**: Easily add new books to the library collection by providing details such as title, author, genre, and publication year.
-- **Update Books**: Update existing book information, such as title, author, genre, and publication year.
+- **Add Books**: Easily add new books to the library collection by providing details such as title, author, genre and ratings.
+- **Update Books**: Update existing book information, such as title, author, genre, and ratings.
 - **Delete Books**: Remove books from the library collection.
 
 ## Technologies Used
